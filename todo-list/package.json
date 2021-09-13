@@ -1,0 +1,21 @@
+{
+  "name": "todo-list",
+  "version": "0.0.0",
+  "main": "dist/todo-app/todo-app.es.js",
+  "exports": {
+    ".": "./dist/todo-app/todo-app.es.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "lit-element": "^2.4.0"
+  },
+  "devDependencies": {
+    "vite": "^2.5.4"
+  }
+}
